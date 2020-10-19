@@ -69,3 +69,4 @@ const objs = [{ sum: 42 }, { sum: 7 }];
 const promises = objs.map(addParam);
 
 Promise.race(promises).then(console.log).catch(console.log);
+Promise.all(promises).then(console.log).catch(console.log);
