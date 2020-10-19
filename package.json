@@ -1,0 +1,13 @@
+{
+  "name": "kuniversity",
+  "version": "1.0.0",
+  "description": "KUniversity sessions material",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Basulto",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.5.3"
+  }
+}
