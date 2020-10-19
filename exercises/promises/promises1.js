@@ -8,11 +8,11 @@
  */
 
 function getMessageFirstPart() {
-  return new Promise((resolve) => setTimeout(() => resolve("The code to"), 0));
+  return new Promise((resolve) => setTimeout(() => resolve("The code to"), 2000));
 }
 
 function getMessageSecondPart() {
-  return new Promise((resolve) => setTimeout(() => resolve("stop the bomb is"), 0));
+  return new Promise((resolve) => setTimeout(() => resolve("stop the bomb is"), 1000));
 }
 
 function getMessageThirdPart() {
