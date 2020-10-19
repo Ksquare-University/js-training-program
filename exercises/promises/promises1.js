@@ -1,9 +1,11 @@
 /**
  * We need to paste the entire message to save the detonation!
  *
- * Create a function that returns the entire message! Check the mid
- * functions, maybe its something left with the params that functions
- * need to receive.
+ *  Exercise:
+ 
+ *  Create a getCompleteMessage() function that returns the entire message! Check the mid
+ *  functions, maybe its something left with the params that functions
+ *  need to receive.
  *
  */
 

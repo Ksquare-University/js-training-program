@@ -8,6 +8,7 @@
   "author": "Daniel Basulto",
   "license": "MIT",
   "dependencies": {
+    "crypto-random-string": "^3.3.0",
     "jest": "^26.5.3"
   }
 }
