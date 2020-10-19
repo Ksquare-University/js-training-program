@@ -5,7 +5,7 @@ Repository that contains code and slides from JS training sessions
 ## Installation
 
 ```sh
-$ npm install
+$ yarn
 ```
 
 ## Test
@@ -13,5 +13,5 @@ $ npm install
 Given a test suit, make every single test suit pass.
 
 ```sh
-$ npm test
+$ yarn test
 ```
