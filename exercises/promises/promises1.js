@@ -9,7 +9,7 @@
  *
  */
 
-function getMessageFirstPart() {
+function getMessageFirstPart(param) {
   return new Promise((resolve) => setTimeout(() => resolve("The code to"), 2000));
 }
 
