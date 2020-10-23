@@ -1,4 +1,4 @@
-const { getCompleteMessage } = require("../exercises/promises/promises1");
+const { getCompleteMessage } = require("exercises/promises/promises1");
 
 describe("Exercise 1", () => {
   it("should show The code to stop the bomb is KUniversity2020", () => {
