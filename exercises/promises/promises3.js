@@ -19,7 +19,7 @@
  *
  */
 
-const { ordersService } = require("../mocks/services/orders");
+const { createOrder, getOrderInfo } = require("../mocks/services/orders");
 
 function wating() {
   // TODO: Implement
