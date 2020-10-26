@@ -19,36 +19,14 @@
  *
  */
 
-//const { ordersService } = require("../mocks/services/orders");
-
-function wait(delay) {
-  return new Promise((resolve) => setTimeout(() => resolve(), delay));
-}
+const { ordersService } = require("../mocks/services/orders");
 
 function wating() {
-
-  //I'll try to do it so that it only runs after the previous one is over.
-  //IT WOOOORKKSSSS
-  wait(1000).then( () =>{
-    console.log("Waited 1");
-    wait(1000).then(
-      () => {
-        console.log("Waited 2");
-      }
-    )
-  }
-  )
-  
-
+  // TODO: Implement
 }
 
 function newOrderFoodProcess() {
-  //createOrder();
-  //wating();
-  //getOrderInfo();
-  return wait(1000).then( () =>{
-    return ("Finally!! My order is: cheeseBuger,soda")}
-    );
+  // TODO: Implement
 }
 
 module.exports = {
