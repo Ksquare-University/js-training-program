@@ -105,14 +105,21 @@ function getOperation100() {
 
 /**
  * Exercise 3
- */
+*/
 
 //Hacer una funcion factory que genere funciones
-//Make a function that makes a function that returns any number??? Kindof circular..
+
+function addFactory(add){
+  return function(num){
+    return add + num;
+  }
+}
 
 function add5(num) {
   return add(num,5)
 }
+
+const add6 = addFactory(6);
 
 
 function getSum25() {

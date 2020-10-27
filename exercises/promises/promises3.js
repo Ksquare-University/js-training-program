@@ -39,15 +39,14 @@ function wating() {
   }
   )
   
-
 }
 
-function newOrderFoodProcess() {
+function newOrderFoodProcess(foods) {
   //createOrder();
   //wating();
   //getOrderInfo();
   return wait(1000).then( () =>{
-    return ("Finally!! My order is: cheeseBuger,soda")}
+    return (`Finally!! My order is: ${foods.join(",")}`)}
     );
 }
 
