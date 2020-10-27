@@ -21,16 +21,9 @@ function getMessageThirdPart() {
   return new Promise((resolve) => setTimeout(() => resolve("KUniversity2020"), 0));
 }
 
-
 function getCompleteMessage() {
-  
-  
-  return Promise.all( [getMessageFirstPart(), getMessageSecondPart(),getMessageThirdPart()] ).then(values =>{
-    return values.join(" ");
-  });
-
+  // TODO: Implement
 }
-
 
 module.exports = {
   getCompleteMessage,
