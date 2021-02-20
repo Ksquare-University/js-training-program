@@ -1,4 +1,4 @@
-const { getSum20, getOperation100, getSum25 } = require("../exercises/promises/promises2");
+const { getSum20, getOperation100, getSum25 } = require("exercises/promises/promises2");
 
 describe("Exercise 2", () => {
   it("Should return 20 as result", () => {

@@ -1,4 +1,4 @@
-const { newOrderFoodProcess } = require("../exercises/promises/promises3");
+const { newOrderFoodProcess } = require("exercises/promises/promises3");
 
 describe("Exercise 3", () => {
   it("Should return Finally!! My order is: cheeseBuger,soda", () => {
